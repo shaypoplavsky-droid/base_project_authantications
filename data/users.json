@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1781168529072,
+    "password": "$2b$10$m2Qxg.Gk6cdVMH2JylrO0OY.LJBndLQz5E/bu2iJzsQ0u2fzUmip.",
+    "name": "moshe",
+    "email": "user_email@gmail.com",
+    "age": 20,
+    "phone": "0537119086",
+    "city": "רחובות",
+    "role": "user",
+    "createdAt": "2026-06-11T09:02:09.072Z"
+  },
+  {
+    "id": 1781170220507,
+    "password": "$2b$10$7os9KLd/i8DluIi16baHh.lJ/Z/hv2cAoAybcfOicVdBQgi/lKqQK",
+    "name": "avi",
+    "email": "avi@gmail.com",
+    "age": 20,
+    "phone": "0537119086",
+    "city": "רחובות",
+    "role": "admin",
+    "createdAt": "2026-06-11T09:30:20.507Z"
+  },
+  {
+    "id": 1781190739709,
+    "password": "$2b$10$bBbHQ7E2OD/n8/gecMuyc.g2dlER9UYowGLcg5RxcsWh5WSZuBqhC",
+    "name": "moti",
+    "email": "m@gmail.com",
+    "age": 28,
+    "phone": "0537119086",
+    "city": "באשדוד",
+    "role": "user",
+    "createdAt": "2026-06-11T15:12:19.709Z"
+  }
+]
