@@ -31,5 +31,16 @@
     "city": "באשדוד",
     "role": "user",
     "createdAt": "2026-06-11T15:12:19.709Z"
+  },
+  {
+    "id": 1781337363624,
+    "password": "$2b$10$tGBNi3JS5t6Yfxx9fxeVDOYPgY37R/dsEC2Wn4WHS..hjuaC1dIw6",
+    "name": "shay",
+    "email": "shay123@gmail.com",
+    "age": 53,
+    "phone": "0521234567",
+    "city": "haifa",
+    "role": "admin",
+    "createdAt": "2026-06-13T07:56:03.624Z"
   }
 ]
