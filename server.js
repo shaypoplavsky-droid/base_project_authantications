@@ -1,5 +1,4 @@
 const express = require("express");
-
 const usersRoutes = require("./routes/users.routes");
 // const logger = require("./middlewares/logger.middleware");
 
@@ -18,8 +17,6 @@ app.get("/", (req, res) => {
 });
 
 const PORT = 8000;
-
-
 app.listen(PORT, () => {
   console.log(`Server running on port http://localhost:${PORT}`);
 });

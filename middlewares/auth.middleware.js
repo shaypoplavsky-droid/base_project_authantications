@@ -3,10 +3,8 @@ const jwt = require("jsonwebtoken");
 const SECRET_KEY = process.env.SECRET_KEY || "your_secret_key_here";
 
 const authMiddleware = (req, res, next) => {
-
-  const token = req.headers["x-api-key"];
-
-    console.log("Token:", token);
+const token = req.headers["x-api-key"];
+console.log("Token:", token);
 
   if (!token) {
     return res.status(401).json({
@@ -21,7 +19,6 @@ const authMiddleware = (req, res, next) => {
     );
 
     console.log("Decoded token:", decoded);
-
     req.user = decoded;
 
     next();
